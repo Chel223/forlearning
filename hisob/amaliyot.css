@@ -1,0 +1,145 @@
+body{
+    background-image: url(mainBg.png);
+    background-size: 100%;
+    background-color: black;
+}
+.head{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: block;
+}
+.log1{
+    position: absolute;
+    left: 6%;
+    width: 14%;
+    top: 10px;
+}
+.log2{
+    top: 6px;
+    position: absolute;
+    left: 33%;
+    z-index: 2;
+}
+.log3{
+    position: absolute;
+    left: 52%;
+    
+    z-index: 3;
+}
+.logo2{
+    cursor: pointer;
+    text-align: left;
+    left: 26%;
+    top: 17px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: chocolate;
+    border: 0px solid;
+    background: linear-gradient(
+90deg
+, rgba(254,117,109,1) 0%, rgba(254,208,32,1) 100%);
+    background-image: linear-gradient(
+90deg
+, rgb(254, 117, 109) 0%, rgb(254, 208, 32) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    z-index: 1;
+}
+h3{
+    left: 10px;
+    top: -8px;
+    position: absolute;
+    color: white;
+}
+.logo3{
+    cursor: pointer;
+    text-align: left;
+    left: 43%;
+    top: 17px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 215px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(59, 104, 187);
+    border: 0px solid;
+    z-index: 1;
+    background-image: linear-gradient(
+90deg
+, rgb(58, 138, 246) 0%, rgb(95, 228, 255) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+   
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.text1{
+    cursor: pointer;
+    top: -8px;
+    width: 150px;
+    left: 60%;
+    position: absolute;
+}
+.text2{
+    top: 17px;
+    cursor: pointer;
+    position: absolute;
+    left: 70% ;
+    width: 150px;
+}
+.log4{
+    top: 25px;
+    width: 25px;
+    position: absolute;
+    left: 80%;    
+    cursor: pointer;
+}
+.log5{
+    cursor: pointer;
+    top: 17px;
+    width: 45px;
+    position: absolute;
+    left: 84%;  
+}
+.info1{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+.info2{
+    width: 100%;
+    top: 20%;
+    position: absolute;
+    left: 10%;
+}
+.text5{
+    position: absolute;
+    width: 65%;
+    border: 5px solid red;
+    top: 290px;
+    font-size: 4rem;
+     color: white;
+     left: 10%;
+     border-radius: 20px;
+     padding: 30px;
+}
+.log8{
+    left: 60%;
+    position: absolute;
+    top: 280px;
+}
